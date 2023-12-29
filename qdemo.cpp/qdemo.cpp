@@ -1,6 +1,10 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
+int help()
+{
+    return 100;
+}
 int main()
 {
     cout<<"Hello World"<<endl;
@@ -8,4 +12,5 @@ int main()
     cout<<"from vishnu"<<endl;
     int a = 10+5;
     cout<<a<<endl;
+    int x = help();
 }
